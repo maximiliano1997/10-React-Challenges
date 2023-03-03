@@ -1,0 +1,41 @@
+body {
+    background-color: #ccf;
+    text-align: center;
+}
+
+
+button {
+    background-color: #222;
+    color: #fff;
+    font-weight:600;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    margin:16px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.inputs {
+    display: flex;
+    gap:15px;
+    justify-content: center;
+}
+.inputs > input {
+    background:#cff;
+    border:none;
+    height:33px;width:150px;
+    font-size:20px;
+    outline: none;
+}
+input::placeholder {
+    color: #f60;
+}
+
+.display-results {
+    font-size:100px;
+    color: violet;
+}

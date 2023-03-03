@@ -1,0 +1,28 @@
+body{
+    background-color:gold;
+    text-align: center;
+}
+.App > h1 {
+    border-bottom:2px solid;
+}
+
+
+.books {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.book {
+    background-color:black;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    width:400px;
+}
+
+.book > h3 {
+    color: gold;
+    font-family: verdana;
+}

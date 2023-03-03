@@ -1,0 +1,1 @@
+Then learn React Router and react UseContext, etc

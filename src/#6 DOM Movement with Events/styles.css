@@ -1,0 +1,25 @@
+body {
+    background-color: goldenrod;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: skyblue;
+    border:none;
+    border-radius:5px;
+    font-size:25px;
+}
+button:hover {
+    transform:scale(1.1);
+    cursor:pointer;
+}
+
+.box {
+    width:100px;
+    height:100px;
+    background-color: red;
+    margin:0 auto;
+}

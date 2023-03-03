@@ -1,0 +1,25 @@
+
+body {
+    background-color:brown;
+    text-align: center;
+    color: #fff;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    justify-content: center;
+    margin:0 auto;
+}
+
+.App > input {
+    background-color:#FF000022;
+    color: white;
+    border:1px solid gray;
+    height:33px;
+}
+
+.App > input::placeholder {
+    color: #cccc;
+}

@@ -1,0 +1,10 @@
+ /// To make and use React router
+ import { BrowserRouter as Router, Route, Switch} from 'reac-router-dom'
+ import { Link } from 'reac-router-dom'
+
+tips
+
+Router envolves the whole App.
+Route makes the path="" route to the page/component
+Error page *
+Uses links in a Navbar component
